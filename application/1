@@ -1,0 +1,15 @@
+<?php
+class Passage extends CI_Controller {
+	
+	public function index()
+	{
+		$this->load->model('Passage_model');
+		$this->Passage_model->get_passage("John", "3", "16");
+		$data['verse'] = $this->Passage_model->get_words();
+		$data['blanks'] = $this->Passage_model->get_blanks();
+
+		$this->load->view('index', $data);
+	}
+
+}
+?>
