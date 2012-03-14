@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>memoryv - online bible memorization tool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
 -->
     <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
-  </head>
+    </head>
 
   <body>
 
@@ -60,24 +60,19 @@
             <p class="lead">Memorising the Bible one verse at a time.</p>
         </header>
         <form class="search well form-inline">
-            <input class="" type="text">
-            <button type="submit" class="btn">Grab Verse</button>
+            <input id="ref" class="" type="text">
+            <button id="get" type="submit" class="btn">Grab Verse</button>
         </form>
-        <div class="row">
+        <div id="passage" class="row" style="display:none">
             <div class="well span8">
-                <h3>John 3:16 - Level 1</h3>
-                <p class="lead">For <input type="text" class="input-small"> so loved the <input type="text" class="input-small"> that he gave his <input type="text" class="input-small"> and only Son, that <input type="text" class="input-small"> believes in him shall not <input type="text" class="input-small"> but have everlasting life.</p>
-                <button class="btn">New blanks!</button>
-                <button class="btn">More blanks</button>
-                <button class="btn">Less blanks</button>
-            </div>
-            <div class="well span3">
-                <h3>Review List</h3>
-                <button class="btn">John 3:16</button>
-                <i class="icon-remove"></i>
+                <h3 id="meta"></h3>
+                <p id="content" class="lead"></p>
+                <button id="refresh" class="btn">New blanks!</button>
+                <button id="next" class="btn">More blanks</button>
+                <button id="prev" class="btn">Less blanks</button>
             </div>
         </div>
-        <footer class="footer"><p>Scripture taken from The Holy Bible, English Standard Version. Copyright &copy;2001 by <a href="http://www.crosswaybibles.org">Crossway Bibles</a>, a publishing ministry of Good News Publishers.</p><p> Used by permission. All rights reserved. Text provided by the <a href="http://www.gnpcb.org/esv/share/services/">Crossway Bibles Web Service</a></p></footer>
+        <footer class="footer" style="display:none"><p>Scripture taken from The Holy Bible, English Standard Version. Copyright &copy;2001 by <a href="http://www.crosswaybibles.org">Crossway Bibles</a>, a publishing ministry of Good News Publishers.</p><p> Used by permission. All rights reserved. Text provided by the <a href="http://www.gnpcb.org/esv/share/services/">Crossway Bibles Web Service</a></p></footer>
 
     </div><!-- /container -->
 
@@ -103,6 +98,8 @@
     <script src="bootstrap/app/assets/js/bootstrap-typeahead.js"></script>
     <script src="bootstrap/app/assets/js/application.js"></script>
 
+	<script src="js/jquery-1.5.1.min.js" type="text/javascript"></script> 	
+	<script src="js/custom.js" type="text/javascript"></script> 	
 
   </body>
 </html>
