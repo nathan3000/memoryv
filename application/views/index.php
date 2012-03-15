@@ -27,33 +27,6 @@
     </head>
 
   <body>
-
-
-  <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="./index.html">mv</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active">
-                <a href="./index.html">Home</a>
-              </li>
-              <li class="">
-                <a href="./scaffolding.html">Feedback</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
         <header class="site-title">
             <h1>memoryv</h1> 
@@ -63,9 +36,9 @@
             <input id="ref" class="" type="text">
             <button id="get" type="submit" class="btn">Grab Verse</button>
         </form>
-        <div id="passage" class="row" style="display:none">
+        <div class="passage row" style="display:none">
             <div class="well span8">
-                <h3 id="meta"></h3>
+                <h3></h3>
                 <p id="content" class="lead"></p>
                 <button id="refresh" class="btn">New blanks!</button>
                 <button id="next" class="btn">More blanks</button>

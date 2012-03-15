@@ -10,11 +10,12 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 60px;
+  padding-top: 30px;
   background-color: #fff;
-  background-image: url(../img/grid-18px-masked.png);
+/*  background-image: url(../img/grid-18px-masked.png); */
   background-repeat: repeat-x;
   background-position: 0 40px;
+  border-top: 10px solid #333;
 }
 
 
@@ -786,4 +787,9 @@ form.well {
 
 form.search {
     float: left;
+}
+
+.passage h3 {
+    margin-bottom: 8px;
+    border-bottom: 1px dashed #ddd;
 }
