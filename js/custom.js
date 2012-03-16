@@ -203,7 +203,7 @@ $(document).ready(function(){
                           content.html("Please enter a valid bible reference.");
                         }
                       }, "json")
-                  $("#controls").show();
+                  $("footer").show();
         
                 });
              
