@@ -6,7 +6,7 @@ $(document).ready(function(){
                 cache: false
             });
 
-            var ajax_load = "<img src='/img/load.gif' alt='loading...' />";
+            var ajax_load = "<img src='img/load-ball.gif' alt='loading...' />";
                 
             $("#ref").keypress(function(e) {
                 if(e.which == 13) {
