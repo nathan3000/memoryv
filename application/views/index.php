@@ -54,24 +54,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="bootstrap/app/assets/js/jquery.js"></script>
     <script src="bootstrap/app/assets/js/google-code-prettify/prettify.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-transition.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-alert.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-modal.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-dropdown.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-scrollspy.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-tab.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-tooltip.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-popover.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-button.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-collapse.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-carousel.js"></script>
-    <script src="bootstrap/app/assets/js/bootstrap-typeahead.js"></script>
-    <script src="bootstrap/app/assets/js/application.js"></script>
-
-	<script src="js/jquery-1.5.1.min.js" type="text/javascript"></script> 	
 	<script src="js/custom.js" type="text/javascript"></script> 	
 
   </body>
