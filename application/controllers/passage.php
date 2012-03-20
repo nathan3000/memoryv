@@ -23,7 +23,7 @@ class Passage extends CI_Controller {
   
   public function get_verses()
   {
-    $this->Passage_model->initialize("John", "3", "16", "17");
+    $this->Passage_model->initialize("John", "10", "16", "17");
     
     $passage = $this->Passage_model->get_verses(); 
     

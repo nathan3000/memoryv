@@ -8,10 +8,10 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="bootstrap/app/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="bootstrap/app/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="bootstrap/app/assets/css/docs.css" rel="stylesheet">
-    <link href="bootstrap/app/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -54,9 +54,9 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap/app/assets/js/jquery.js"></script>
-    <script src="bootstrap/app/assets/js/google-code-prettify/prettify.js"></script>
-	<script src="js/custom.js" type="text/javascript"></script> 	
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/custom.js" type="text/javascript"></script> 	
 
   </body>
 </html>
