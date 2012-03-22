@@ -36,8 +36,8 @@
             <input id="ref" class="" type="text">
             <button id="get" type="submit" class="btn">Grab Verse</button>
         </form>
-        <div class="passage row" style="display:none">
-            <div class="well span8">
+        <div class="row">
+            <div class="passage well span12" style="display:none">
                 <h3></h3>
                 <p id="content" class="lead"></p>
                 <button id="refresh" class="btn">New blanks!</button>
