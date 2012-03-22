@@ -1,4 +1,4 @@
 <?php
-    echo 'git pull';
-    echo 'git status';
+    'git pull';
+    'git status';
 ?>
