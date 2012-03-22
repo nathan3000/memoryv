@@ -45,7 +45,7 @@
                 <button id="prev" class="btn">Less blanks</button>
             </div>
         </div>
-    <footer class="footer" style="display:none"><p>Scripture taken from The Holy Bible, English Standard Version. Copyright &copy;2001 by <a href="http://www.crosswaybibles.org">Crossway Bibles</a>, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. Text provided by the <a href="http://www.gnpcb.org/esv/share/services/">Crossway Bibles Web Service</a></p></footer>
+    <footer class="footer" style="display:none"><p>Tip: If you get stuck press enter for a hint :)</p><p>Scripture taken from The Holy Bible, English Standard Version. Copyright &copy;2001 by <a href="http://www.crosswaybibles.org">Crossway Bibles</a>, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. Text provided by the <a href="http://www.gnpcb.org/esv/share/services/">Crossway Bibles Web Service</a></p></footer>
 
 </div><!-- /container -->
 
